@@ -1,0 +1,85 @@
+/* Notes were added to easy any "future me" alterations*/
+* { /*Removes pre-existing configurations*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* color: #fff; */
+font-family: "Poppins", sans-serif; /* good 'Internet' look in general */
+}
+
+body {
+    background: #187795;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+/* NAVBAR STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.navbar{
+padding: 0;
+}
+
+/* MAP STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+button {
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+.map-overlay {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
+.marker {
+    background-image: url('./bus-stop-circle-pin.png');
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mapboxgl-popup {
+    max-width: 100px;
+} 
+.mapboxgl-popup-content {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+background-color: rgb(170, 235, 222);
+}
+
+/* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    background: rgba(255, 255, 255, 0.65);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+  }
+  
+  .page-footer a {
+    display: flex;
+    margin-left: 4px;
+  }
+  

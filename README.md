@@ -13,6 +13,8 @@
 
  Next it would be useful to add bus stop locations with differenciated icons, as well as subway stations for planned transfers. Another token with the entrance locations for both the MIT campus and Cambridge campus would be useful since those who likely use these routes are connected to these schools.
 
+ Also, a background picture of what the map should look like that only appears while the map isnt active would be helpful as a visualization tool. 
+
 ## Appearance:
 <img src= "tracker_readme_pic.png" width='300'/>
 
