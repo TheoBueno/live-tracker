@@ -18,6 +18,10 @@
 ## Appearance:
 <img src= "tracker_readme_pic.png" width='300'/>
 
+## Link:
+[Exercise](https://theobueno.github.io/live-tracker/exe/index.html)
+[Access Token](https://docs.mapbox.com/help/getting-started/access-tokens/)
+
 ## License information: 
 
 MIT License
